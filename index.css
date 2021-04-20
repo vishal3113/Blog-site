@@ -4,6 +4,8 @@
     
 }
 
+
+
 .header1{
 background-color: rgb(3, 32, 32);
 height: 220px;
@@ -11,10 +13,17 @@ padding-top: 30px;
 padding-bottom: 15px;
 }
 
+@media screen and (max-width:600px) {
+    div{
+     text-align: center;
+    }
+   
+}
+
 
 .header{
     background-color: rgb(250, 250, 250);
-    width: 1520px;
+    width: 100%;
     height: 120px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
@@ -43,3 +52,134 @@ padding-bottom: 15px;
     font-size: 20px;
     
 }
+
+.Mini-Header{
+    color: teal;
+    font-size: 60px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+}
+
+.container-1{
+    height: 250px;
+    width: 780px;
+    background-color: rgb(48, 44, 44);
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.content{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.button{
+background-color: rgb(5, 5, 5);
+color: rgb(255, 255, 255);
+text-align: center;
+margin-left: 330px;
+width: 120px;
+padding-top: 1px;
+border: rgb(133, 131, 131) solid 0.5px;
+font-size: 15px;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-2{
+    display: flex;
+}
+
+.box-1{
+
+    height: 350px;
+    width: 500px;
+    background-color: rgb(11, 40, 68);
+    margin-left: 240px;
+
+}
+
+.box-2{
+    height: 350px;
+    width: 500px;
+    background-color: rgb(11, 40, 68);
+    margin-left: 50px;
+}
+
+.Quote{
+    height: 160px;
+    width: 1520px;
+    background-color: rgb(14, 14, 73);
+    display: flex;
+    
+}
+
+.Q-content{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+.container-3{
+    height: 400px;
+    width: 100%;
+    background-color: teal;
+}
+
+.c-box-1{
+    display: block;
+    height: 330px;
+    width: 500px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+
+.cb{
+height: 20px;
+width: 450px;
+background-color: rgb(2, 70, 70);
+margin: 22px;
+
+}
+
+#big-cb{
+    height: 120px;
+    width: 450px;
+    background-color:  rgb(2, 70, 70);
+}
+
+.footer{
+        height: 22px;
+        width: 100%;
+        background-color: rgb(27, 27, 82);
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
