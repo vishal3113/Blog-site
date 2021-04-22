@@ -1,26 +1,13 @@
 *{
-    padding-top: 15px;
     margin: 0px;
     
 }
-
-
-
 .header1{
-background-color: rgb(3, 32, 32);
-height: 220px;
-padding-top: 30px;
-padding-bottom: 15px;
+    background-color: rgb(3, 32, 32);
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
-
-@media screen and (max-width:600px) {
-    div{
-     text-align: center;
-    }
-   
-}
-
-
 .header{
     background-color: rgb(250, 250, 250);
     width: 100%;
@@ -32,7 +19,6 @@ padding-bottom: 15px;
     font-size: 45px;
     padding-top: 30px;
 }
-
 .navigation{
     display: flex;
 }
@@ -43,6 +29,7 @@ padding-bottom: 15px;
     margin:2px;
     padding-left: 100px;
     font-size: 15px;
+    padding-top: 15px;
 }
 
 
@@ -83,8 +70,8 @@ padding-bottom: 15px;
 background-color: rgb(5, 5, 5);
 color: rgb(255, 255, 255);
 text-align: center;
-margin-left: 330px;
-width: 120px;
+margin-inline: 40%;
+width: 20%;
 padding-top: 1px;
 border: rgb(133, 131, 131) solid 0.5px;
 font-size: 15px;
@@ -98,88 +85,136 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .box-1{
 
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 35%;
     background-color: rgb(11, 40, 68);
-    margin-left: 240px;
+    margin-left: 12%;
 
 }
 
 .box-2{
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 35%;
     background-color: rgb(11, 40, 68);
-    margin-left: 50px;
+    margin-left: 6%;
 }
 
 .Quote{
-    height: 160px;
-    width: 1520px;
+    height: auto;
+    width: 100%;
     background-color: rgb(14, 14, 73);
     display: flex;
+    flex-direction: column;
     
 }
 
 .Q-content{
-    margin-left: 50px;
+    text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    margin: 0%;
     
 }
 
 .container-3{
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: teal;
 }
 
 .c-box-1{
     display: block;
-    height: 330px;
-    width: 500px;
+    height: 85%;
+    width: 35%;
     background-color: white;
     margin-top: 18px;
     margin-left: 30px;
 }
 
 .cb{
-height: 20px;
-width: 450px;
+height: 17.5%;
+width: 91%;
 background-color: rgb(2, 70, 70);
-margin: 22px;
+margin: 4.5%;
 
 }
 
 #big-cb{
-    height: 120px;
-    width: 450px;
+    height: 46%;
+    width: 91%;
     background-color:  rgb(2, 70, 70);
 }
 
 .footer{
-        height: 22px;
+        height: auto;
         width: 100%;
         background-color: rgb(27, 27, 82);
         text-align: center;
         color: white;
         font-size: 15px;
-        padding-bottom: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-1 div hr{
+    style="border-left: white; border-right: white; border-bottom: white; width: 600px; margin-left: 90px; margin-top: 2px ;
+}
+.container-1 div{
+    width: 100%;
+    height: auto;
+}
+.Quote div button{
+    width: 20%;
+    border: none; 
+    font-size:18px; 
+    background-color: rgb(43, 39, 39); 
+    border-radius: 2px; 
+    color: rgb(255, 255, 255); 
+    padding:5px; 
+    margin-inline: 40%;
+}
+@media screen and (max-width: 320px){
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        padding-bottom: 3px;
+        text-align:unset;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .nav{
+        padding-top: 15px;
+        padding-left: 13px;
+        font-size: 12px;
+    }
+    .box-1,.box-2{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .container-1{
+        margin: 10px;
+        padding: 15px;
+        height: auto;
+        width: auto;
+    }
+    
+}
+@media screen and (max-width: 560px){
+    .button{
+        font-size: 10px;
+    }
+    .Q-content{
+        width: 61%;
+        font-size: 35px;
+        margin-inline: 19%;
+    }
+    .Quote div button{
+        font-size: 13px;
+    }
+    .Mini-Header{
+        font-size: 35px;
+    }
+}
